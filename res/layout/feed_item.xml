@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="45dp"
+    android:baselineAligned="false"
+    android:orientation="horizontal" >
+    
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+        
+<!--         <ImageView -->
+<!--             android:id="@+id/FeedItemStatus" -->
+<!--             android:layout_width="50dip" -->
+<!--             android:layout_height="50dip" -->
+<!--             android:layout_gravity="center" -->
+<!--             android:contentDescription="@string/app_name" -->
+<!--             android:src="@drawable/ic_item_halflisten" /> -->
+        
+        <com.airplug.audioplug.channelhome.ProgressCircleView 
+            android:id="@+id/FeedItemStatus"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:layout_margin="2dp"
+            />
+        
+	</LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="5"
+        android:orientation="vertical" >
+        
+        <TextView
+            android:id="@+id/FeedItemTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="5dp"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:lines="1"
+            android:textSize="13sp"
+            android:text="@string/app_name" />
+        
+        <TextView
+            android:id="@+id/FeedItemDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/mint"
+            android:textSize="12sp"
+            android:text="@string/app_name" />
+        
+	</LinearLayout>
+    
+</LinearLayout>

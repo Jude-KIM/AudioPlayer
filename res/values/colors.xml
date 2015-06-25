@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+<color name="progress_bg">#727072</color> 
+<color name="test">#737373</color>
+<color name="progress_text">#ededed</color>
+<color name="base_bg">#EFF1F3</color>
+<color name="base_mint">#66cdaa</color>
+<color name="my_navy">#464143</color>
+<color name="my_blue1">#3B8BC1</color>
+<color name="white">#FFFFFF</color>
+
+<color name="base_white">#ffffffff</color>
+<color name="black">#000000</color>
+<color name="base_gray">#ffb1b1b1</color>
+<color name="plain_gray">#494949</color>
+<color name="text_gray1">#272C2E</color>
+<color name="text_gray2">#818E93</color>
+<color name="base">#66cdaa</color>
+<color name="purple">#C9C2EC</color>
+<color name="mint">#00A99E</color>
+<color name="blue">#506CA7</color>
+
+</resources>

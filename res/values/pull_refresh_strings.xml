@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <!-- Just use standard Pull Down String when pulling up. These can be set for languages which require it -->
+    <string name="pull_to_refresh_from_bottom_pull_label">@string/ptr_pull_to_refresh</string>
+    <string name="pull_to_refresh_from_bottom_release_label">@string/ptr_release_to_refresh</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">@string/ptr_refreshing</string>
+
+</resources>

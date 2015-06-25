@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/notImage"
+        android:layout_width="64.0dip"
+        android:layout_height="64.0dip" />
+
+    <LinearLayout
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="5.0dip"
+        android:layout_weight="1.0"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/notChannelTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:singleLine="true"
+            android:text="TextView"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/notFeedTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:ellipsize="marquee"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="TextView"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/notButtonPrevious"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.0"
+        android:background="@null"
+        android:paddingLeft="2.5dip"
+        android:paddingRight="2.5dip"
+        android:src="@drawable/statusbar_control_prev_selector" />
+
+    <ImageButton
+        android:id="@+id/notButtonToggle"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.0"
+        android:background="@null"
+        android:paddingLeft="2.5dip"
+        android:paddingRight="2.5dip"
+        android:src="@drawable/statusbar_control_play_selector" />
+
+    <ImageButton
+        android:id="@+id/notButtonNext"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.0"
+        android:background="@null"
+        android:paddingLeft="2.5dip"
+        android:paddingRight="2.5dip"
+        android:src="@drawable/statusbar_control_next_selector" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="top|right"
+        android:orientation="vertical"
+        android:paddingLeft="5dp" >
+
+        <ImageButton
+            android:id="@+id/notButtonRemove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:background="#00FFFFFF"
+            android:clickable="true"
+            android:src="@android:drawable/ic_delete" />
+    </LinearLayout>
+
+</LinearLayout>

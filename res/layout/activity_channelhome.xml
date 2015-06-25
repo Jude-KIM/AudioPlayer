@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ECEBE8"
+    android:orientation="vertical"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp" >
+    
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        layout="@layout/channel_info"
+        android:background="#FFFFFF" 
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:orientation="horizontal" >
+        
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            android:paddingBottom="7dp"
+            android:paddingTop="7dp"
+            android:src="@drawable/ic_favorite" />
+        
+        <ImageButton
+            android:id="@+id/btnShare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            android:paddingBottom="7dp"
+            android:paddingTop="7dp"
+            android:src="@drawable/ic_share" />
+        
+        <ImageButton
+            android:id="@+id/btnPlayAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            android:paddingBottom="7dp"
+            android:paddingTop="7dp"
+            android:src="@drawable/ic_player_playlist" />
+
+    </LinearLayout>
+        
+    <FrameLayout
+        android:id="@+id/feeds_refresh_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true"
+        android:visibility="gone" >
+
+            <ProgressBar
+                android:id="@+id/detail_view_progress"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:clickable="false"
+                android:visibility="visible" />
+
+    </FrameLayout>
+    
+    
+    <FrameLayout
+        android:id="@+id/feedListLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true" 
+        android:visibility="visible"
+        android:background="@drawable/white_rect_shadow">
+
+               <ListView
+                   android:id="@+id/feedListView"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginBottom="5dp"
+                   android:layout_weight="1"
+                   android:background="#FFFFFF"
+                   android:clickable="true"
+                   android:listSelector="@drawable/selector_playlist2"
+                   android:longClickable="true" >
+
+            </ListView>
+                            
+            <ProgressBar
+                android:id="@+id/loadingProgressBar"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:clickable="false"
+                android:visibility="invisible" />
+
+    </FrameLayout>
+
+
+        
+</LinearLayout>

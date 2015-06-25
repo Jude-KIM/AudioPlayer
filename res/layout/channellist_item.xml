@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/channel_item"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:clickable="false"
+    android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/ChannelItemThumbnail"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="top"
+            android:layout_weight="0"
+            android:background="#FFFFFF"
+            android:clickable="false"
+            android:scaleType="center"
+            android:src="@drawable/ic_channel_default" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_overlay_favorite" />
+
+        <TextView
+            android:id="@+id/ChannelItemTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="#AA006666"
+            android:lines="1"
+            android:paddingBottom="3dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="3dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+</FrameLayout>

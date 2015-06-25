@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"    
+    android:background="#AA000000"
+    android:gravity="center_horizontal|center_vertical" >
+
+    <LinearLayout
+        android:id="@+id/content_field"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/login_bg"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4.0dip"
+            android:layout_marginRight="4.0dip"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" >
+            
+            <ImageView 
+                android:layout_width="56.0dip" 
+                android:layout_height="16.0dip" 
+                android:src="@drawable/cha_img_share" />
+            
+            <Button 
+                android:id="@+id/btnShareClose" 
+                android:background="@drawable/btn_share_close" 
+                android:layout_width="16.0dip" 
+                android:layout_height="16.0dip" 
+                android:layout_alignParentRight="true" />
+            
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/btnShareFacebook"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/btn_share_facebook" />
+              
+        <ImageView
+            android:id="@+id/btnShareKakao"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/btn_share_kakao" />
+        
+        <ImageView
+            android:id="@+id/btnShareTwitter"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/btn_share_twitter" />
+        
+    </LinearLayout>
+
+</LinearLayout>
