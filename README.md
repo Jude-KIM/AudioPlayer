@@ -1,4 +1,4 @@
-# Whiat is AudioPlug?
+# Whiat is AudioPlayer?
 A streaming based podcast player for android which can:
 
 . parse RSS address so you can play and control media files in your webpage.
@@ -8,7 +8,7 @@ A streaming based podcast player for android which can:
 . share the address of media to cacaoTalk, facebook and twitter.
 
 # How to Use
-Download AudioPlug, and enjoy it. 
+Download AudioPlayer, and enjoy it. 
 It consists of 3 part, 'ChannelList', ChannelHome', and 'Player'(widget is optional).
 
 'ChannelList' shows you all the RSS channels like podcast. For the simpel uses, For the simple use, AudioPlug has some preloaded podcast addresses which is hard coded.
@@ -21,7 +21,7 @@ You can refresh the list by the button on top of 'ChannelHome' page.
 
 
 # License
-AudioPlug has no license.
+AudioPlayer has no license.
 
 #Author:
 Jude KIM 
